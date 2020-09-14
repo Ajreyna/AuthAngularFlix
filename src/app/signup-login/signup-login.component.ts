@@ -15,7 +15,7 @@ user: {
 
 }
   invalidLogin = false;
-constructor(private authService: AuthenticatedService,
+  constructor(private authService: AuthenticatedService,
               private router: Router) { 
                 this.user = {
                   username: '',
