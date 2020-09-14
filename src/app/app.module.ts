@@ -17,6 +17,7 @@ import {MovieApiService} from './movie-api.service';
 import {ApiService} from './api.service';
 import { SignupLoginComponent } from './signup-login/signup-login.component';
 import { mainModule } from 'process';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -33,10 +34,12 @@ import { mainModule } from 'process';
 
   ],
   imports: [
+    RouterModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    
     
   
   ],
